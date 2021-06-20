@@ -6,7 +6,7 @@ import math
 with open('data.csv')as f:
     reader=csv.reader(f)
     fileData=list(reader)
-#data=fileData[1]
+data=fileData[0]
 def mean(data):
     n=len(data)
     total=0
